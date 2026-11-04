@@ -29,7 +29,7 @@
 <p><strong>Delete your leaderboard data:</strong> in the game open <em>Settings → About &amp; privacy → Delete leaderboard data</em>. Your entry is deleted from the server immediately and the game gives you a new random identity. You can also e-mail us (see Contact).</p>
 
 <h2>3. Advertising</h2>
-<p>The free version shows ads served through Unity LevelPlay and its partner ad networks. To show and measure ads, these companies may collect device information such as the advertising ID (Android Advertising ID / Apple IDFA, only if you allow tracking), IP address, device model, OS version and ad interactions.</p>
+<p>The free version shows ads served through Unity LevelPlay and its partner ad networks. To show and measure ads, these companies may collect device information such as the advertising ID (Android Advertising ID / Apple IDFA, only if you allow tracking), IP address and approximate location derived from it, device model, OS version, ad interactions and diagnostic data.</p>
 <ul>
 <li>The first time you open the game we ask whether ads may be <strong>personalised</strong>. No ads load until you answer, and if you say no they stay non-personalised. You can change your answer at any time in <em>Settings → About &amp; privacy → Personalised ads</em>.</li>
 <li>On iOS the game asks for permission to track (App Tracking Transparency). If you decline, your IDFA is not used.</li>
@@ -38,14 +38,14 @@
 <p>Unity's privacy policy: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a>. A list of LevelPlay's ad network partners and their policies is available from Unity.</p>
 
 <h2>4. Purchases</h2>
-<p>Subscriptions are processed entirely by Google Play or the Apple App Store. We never see your payment details. The game only receives confirmation of which plan is active.</p>
+<p>Subscriptions are processed entirely by Google Play or the Apple App Store. We never see your payment details. The game only receives confirmation of which plan is active. The purchase system (Unity IAP) processes purchase history, device identifiers, approximate location, and crash and diagnostic data to complete purchases and keep them working.</p>
 
 <h2>5. Summary table</h2>
 <table>
 <tr><th>Data</th><th>Purpose</th><th>Shared with</th><th>Kept</th></tr>
 <tr><td>Random player ID, player name, best score/distance</td><td>Leaderboard</td><td>Supabase (hosting); name and score are public</td><td>Until you delete it</td></tr>
-<tr><td>Advertising ID, device and ad interaction data</td><td>Showing and measuring ads, fraud prevention</td><td>Unity LevelPlay and its ad network partners</td><td>Per each partner's policy</td></tr>
-<tr><td>Purchase status</td><td>Unlocking your subscription</td><td>Google Play / Apple</td><td>Per the store's policy</td></tr>
+<tr><td>Advertising ID and other device identifiers, approximate location, ad interaction and diagnostic data</td><td>Showing and measuring ads, fraud prevention</td><td>Unity LevelPlay and its ad network partners</td><td>Per each partner's policy</td></tr>
+<tr><td>Purchase history and status, device identifiers, approximate location, crash and diagnostic data</td><td>Unlocking your subscription, keeping purchases working</td><td>Google Play / Apple; processed by Unity IAP</td><td>Per the store's policy</td></tr>
 </table>
 
 <h2>6. Your rights</h2>
