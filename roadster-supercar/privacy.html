@@ -10,7 +10,7 @@
 <main>
 <nav><a href="index.html">Highway Roadster</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav>
 <h1>Privacy Policy</h1>
-<p class="meta">Last updated: 6 November 2026</p>
+<p class="meta">Last updated: 10 November 2026</p>
 
 <p>This policy explains what the mobile game <strong>Highway Roadster</strong> ("the game", "we") collects, why, and what you can do about it. We do not ask for your name, e-mail, phone number, location, contacts, photos or microphone.</p>
 
@@ -22,11 +22,19 @@
 <ul>
 <li>a random player ID and a random secret created on your device (not linked to your device ID, account or identity; we store only a hash of the secret),</li>
 <li>the player name you choose (or a generated one such as "Pilot1234"),</li>
-<li>your best score and best distance, and the time they were set.</li>
+<li>your best score and best distance, and the time they were set,</li>
+<li>your best score of the current week, for the weekly league: you are placed in a group of up to 30 players, and your league level and last week's place are kept.</li>
 </ul>
-<p>Your player name and best score are visible to everyone in the in-game leaderboard. Please do not use your real name or anything personal as your player name. Names with offensive words are refused, and other players can report a name; reported names may be hidden.</p>
+<p>Your player name and best score are visible to everyone in the in-game leaderboard, and your weekly score to the players in your league group. Please do not use your real name or anything personal as your player name. Names with offensive words are refused, and other players can report a name; reported names may be hidden.</p>
 <p>The leaderboard runs on Supabase (servers in the EU, Frankfurt). Like any web server, it briefly processes your IP address to answer the request; we do not keep it with your leaderboard entry.</p>
 <p><strong>Delete your leaderboard data:</strong> in the game open <em>Settings → About &amp; privacy → Delete leaderboard data</em>. Your entry is deleted from the server immediately and the game gives you a new random identity. You can also e-mail us (see Contact).</p>
+
+<h2>2a. Gameplay statistics</h2>
+<p>To find out where the game is too hard, too slow or confusing, the game sends anonymous gameplay statistics to the same server: for example when a session starts and ends, how far a run went and why it ended, which training step was reached, which upgrade was bought, whether a rewarded ad finished, and the frame rate together with the phone model and graphics chip. They are tagged with the same random player ID as the leaderboard and a random ID for each session. They do not include your advertising ID, name, contacts or location, and are never used for advertising or shared with anyone.</p>
+<p>You can switch this off in <em>Settings → About &amp; privacy → Share anonymous statistics</em>. <em>Delete leaderboard data</em> also deletes your statistics from the server. Statistics are kept for at most 24 months.</p>
+
+<h2>2b. Reminders</h2>
+<p>If you allow notifications, the game schedules a few reminders on your phone (for example when the weekly league is about to end or new daily missions are ready), at most one a day. They are created on the device itself; nothing is sent to us or to a push service. You can switch them off in <em>Settings → Reminders</em> or in the system settings.</p>
 
 <h2>3. Advertising</h2>
 <p>The free version shows ads served through Unity LevelPlay and its partner ad networks. To show and measure ads, these companies may collect device information such as the advertising ID (Android Advertising ID / Apple IDFA, only if you allow tracking), IP address and approximate location derived from it, device model, OS version, ad interactions and diagnostic data.</p>
@@ -43,7 +51,8 @@
 <h2>5. Summary table</h2>
 <table>
 <tr><th>Data</th><th>Purpose</th><th>Shared with</th><th>Kept</th></tr>
-<tr><td>Random player ID, player name, best score/distance</td><td>Leaderboard</td><td>Supabase (hosting); name and score are public</td><td>Until you delete it</td></tr>
+<tr><td>Random player ID, player name, best score/distance, weekly score, league level and group</td><td>Leaderboard and weekly league</td><td>Supabase (hosting); name and score are public</td><td>Until you delete it</td></tr>
+<tr><td>Random player ID, session ID, gameplay events, phone model and graphics chip</td><td>Improving the game (statistics)</td><td>Supabase (hosting) only</td><td>Up to 24 months, or until you delete it</td></tr>
 <tr><td>Advertising ID and other device identifiers, approximate location, ad interaction and diagnostic data</td><td>Showing and measuring ads, fraud prevention</td><td>Unity LevelPlay and its ad network partners</td><td>Per each partner's policy</td></tr>
 <tr><td>Purchase history and status, device identifiers, approximate location, crash and diagnostic data</td><td>Unlocking your subscription, keeping purchases working</td><td>Google Play / Apple; processed by Unity IAP</td><td>Per the store's policy</td></tr>
 </table>
